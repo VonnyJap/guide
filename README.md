@@ -160,3 +160,10 @@ Simply add a new markdown document to the folder hierarchy in `docs`, and add an
 [issues-url]: https://github.com/screwdriver-cd/screwdriver/issues
 [status-image]: https://cd.screwdriver.cd/pipelines/27/badge
 [status-url]: https://cd.screwdriver.cd/pipelines/27
+
+### Patch
+
+% docker run --rm \
+ --volume="$PWD:/srv/jekyll" -p 4000:4000 \
+ -it jekyll/jekyll:4.2.0 \
+ jekyll serve --source docs --destination \_site
