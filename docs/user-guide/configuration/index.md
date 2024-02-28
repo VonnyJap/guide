@@ -238,6 +238,5 @@ You can access information about properties by hovering over the property name.
         <p>A list of jobs that belong to a stage. It can consist of one or more jobs.</p>
     </div>
 </div>
-
 </div>
 </div>
